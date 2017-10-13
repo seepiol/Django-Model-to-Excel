@@ -10,5 +10,5 @@ For changing the config, you can open the file and rewrite `get_excel_file_name`
 
 ## Dependency
 1. `django` >= 1.8 
-2. `python` >= 2.7
-3. `xlsxwriter` >= 0.9.03
+2. `python` >= 2.7 or 3.3
+3. `xlsxwriter` >= 0.9.3
