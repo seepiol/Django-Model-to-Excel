@@ -1,2 +1,14 @@
 # Django-Model-to-Excel
-a simple tool for transferring django models to excel files
+A simple tool for converting django models to excel file without adding polluting you application.
+
+## Quick Start
+Just smiply download the `m2e.py` script and put it under the root of your django project where your `manage.py` locates and run `python m2e.py`, an excel file will be generated.
+
+## Config
+By default, name of generated excel file wil be `your_project_name.xlsx` and all available models will be converted.
+For changing the config, you can open the file and rewrite `get_excel_file_name` fcuntion for changing the generated filename. Also, you can rewrite `get_types` function which should return a list of model names. 
+
+## Dependency
+`django` >= 1.8
+`python` >= 2.7
+`xlsxwriter` >= 0.9.03
