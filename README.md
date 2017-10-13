@@ -6,7 +6,7 @@ Just smiply download the `m2e.py` script and put it under the root of your djang
 
 ## Config
 By default, name of generated excel file wil be `your_project_name.xlsx` and all available models will be converted.
-For changing the config, you can open the script and rewrite `get_excel_file_name` fcuntion for changing the generated filename. Also, you can rewrite `get_types` function which should return a list of model names. 
+For changing the config, you can open the script and rewrite `get_excel_file_name` fcuntion for changing the generated filename. Also, you can rewrite `get_types` function which should return a list of name of models which you want to convert.
 
 ## Dependency
 1. `django` >= 1.8 
