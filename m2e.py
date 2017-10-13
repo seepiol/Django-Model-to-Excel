@@ -43,7 +43,7 @@ def get_model_data(model_type):
 def main():
     types = get_types()
     if types:
-        all_types = list(filter(lambda m: m.name in types, types))
+        all_types = list(filter(lambda m: m.name in types, ContentType.objects.all()))
     else:
         all_types = ContentType.objects.all()
     workbook = xlsxwriter.Workbook(get_excel_file_name())
