@@ -9,6 +9,6 @@ By default, name of generated excel file wil be `your_project_name.xlsx` and all
 For changing the config, you can open the file and rewrite `get_excel_file_name` fcuntion for changing the generated filename. Also, you can rewrite `get_types` function which should return a list of model names. 
 
 ## Dependency
-. `django` >= 1.8 
-. `python` >= 2.7
-. `xlsxwriter` >= 0.9.03
+1. `django` >= 1.8 
+2. `python` >= 2.7
+3. `xlsxwriter` >= 0.9.03
