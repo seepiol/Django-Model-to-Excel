@@ -1,4 +1,4 @@
-#coding:utff-8
+#coding:utf-8
 import os, django, xlsxwriter
 
 def get_project_name():
